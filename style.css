@@ -12,10 +12,9 @@
     body {
       font-family: 'Outfit', sans-serif;
       background-color:var(--lg-color);
-      height: 100vh
+      min-height: 100vh
     }
     .contener {
-      width: 360px;
     height: 551px;
     position: absolute;
     left: 50%;
@@ -24,6 +23,7 @@
     background-color: var(--wt-color);
     border-radius: 25px;
 	  box-shadow: 0px 10px 19px -4px var(--gb-color);
+    max-width: 360px;
   }
     .object {
       position: relative;
@@ -34,10 +34,12 @@
     text-align: center;
     gap: 1em;
     align-items: center;
+    padding: 10px;
     }
     img{
-      width: 340px;
+      max-width: 100%;
       border-radius: 15px;
+      display: block;
     }
     .title {
       font-weight: 700;
@@ -55,11 +57,11 @@
     }
 
 
-    @media (max-width:375px) {
+    /* @media (max-width:375px) {
       .contener{
         width: 310px;
       }
       img{
         width: 285px;
       }
-    }
+    } */
