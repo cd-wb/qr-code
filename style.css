@@ -23,6 +23,7 @@
     transform: translate(-50%,-50%);
     background-color: var(--wt-color);
     border-radius: 25px;
+	box-shadow: 0px 10px 19px -4px var(--gb-color);
   }
     .object {
       position: relative;
@@ -50,7 +51,7 @@
       font-weight: 400;
     font-size: 15px;
     opacity: 0.7;
-    color: var(--lg-color);
+    color: var(--gb-color);
     width: 250px;
     }
 
